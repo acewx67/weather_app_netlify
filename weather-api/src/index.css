@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins,sans-serif;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+}
+.searchBtn{
+  background: none;
+  border : none;
+}
+.searchBar{
+  padding: 10px;
+  line-height: 2em;
+  background-color: rgb(85, 85, 239);
+  color: white;
+  width: 100vw;
+  display: flex;
+  gap:3px;
+  justify-content: center;
+  justify-content: baseline;
+  /* justify-content: space-around; */
+  /* gap : 500px; */
+  justify-content: space-around;
+  margin-bottom : 20px;
+}
+.mainTitle{
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  align-self: flex-start;
+}
+.mainBox{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.col{
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  gap : 50px;
+}
+.cityList:hover{
+  cursor:pointer;
+  color: firebrick;
+  text-decoration: underline;
+}
